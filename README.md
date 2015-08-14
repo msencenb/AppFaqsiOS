@@ -7,14 +7,18 @@
 
 ## Installation
 
-This iOS SDK is meant to be used in conjunction with a subscription at [https://appfaqs.co"](https://appfaqs.co).
+This iOS SDK is meant to be used in conjunction with a subscription at [https://appfaqs.co](https://appfaqs.co).
 
-Step 1) Add AppFaqs to your project via [CocoaPods](http://cocoapods.org) by adding the following to your Podfile:
+Step 1) 
+
+Add AppFaqs to your project via [CocoaPods](http://cocoapods.org) by adding the following to your Podfile:
 
 ```ruby
 pod "AppFaqs"
 ```
-Step 2) Import AppFaqs and make sure the view controller AppFaqs will be presented from conforms to the APFDelegate 
+Step 2) 
+
+Import AppFaqs and make sure the view controller AppFaqs will be presented from conforms to the APFDelegate 
 
 ```objective-c
 #import <AppFaqs/APFaqs.h>
@@ -25,7 +29,9 @@ Step 2) Import AppFaqs and make sure the view controller AppFaqs will be present
 @end
 ```
 
-Step 3) Show the FAQ screen and ensure you have implemented the delegate callback
+Step 3) 
+
+Show the FAQ screen and ensure you have implemented the delegate callback
 
 ```objective-c
 - (IBAction)launchFAQPressed:(id)sender {
@@ -39,7 +45,9 @@ Step 3) Show the FAQ screen and ensure you have implemented the delegate callbac
 }
 ```
 
-Step 4) Grin broadly from ear to ear, drink a beer, put a sock on your nose, or whatever it is you do to celebrate! If you need help
+Step 4) 
+
+Grin broadly from ear to ear, drink a beer, put a sock on your nose, or whatever it is you do to celebrate! If you need help
 with the installation please email support@appfaqs.co
 
 ## Example Project
