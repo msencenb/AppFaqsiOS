@@ -12,10 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0"
   s.summary          = "iOS SDK for https://appfaqs.co"
   s.description      = <<-DESC
-                       An optional longer description of AppFaqs
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Pod for easy integration of AppFaqs into your iOS app.
                        DESC
   s.homepage         = "https://appfaqs.co"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
