@@ -1,0 +1,6 @@
+framework module AppFaqs {
+  umbrella header "AppFaqs-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Matt Sencenbaugh. All rights reserved.
 //
 
+#import <AppFaqs/APFaqs.h>
 @import UIKit;
 
-@interface APFViewController : UIViewController
+@interface APFViewController : UIViewController<APFDelegate>
+- (IBAction)launchFAQPressed:(id)sender;
 
 @end

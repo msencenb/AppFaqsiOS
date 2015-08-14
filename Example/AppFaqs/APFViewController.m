@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)launchFAQPressed:(id)sender {
+    UIViewController *viewController = [APFaqs faqWithApiKey:@"xEpc9SGp18mFr2Yz2yunrY39" withDelegate:self];
+    [self presentViewController:viewController animated:YES completion:^{}];
+}
+
+#pragma mark - APFDelegate
+-(void)closeButtonWasPressed
+{
+    [self dismissViewControllerAnimated:YES completion:^{}];
+}
 @end

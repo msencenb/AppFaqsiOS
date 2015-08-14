@@ -1,0 +1,14 @@
+PODS:
+  - AppFaqs (0.1.0)
+
+DEPENDENCIES:
+  - AppFaqs (from `../`)
+
+EXTERNAL SOURCES:
+  AppFaqs:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AppFaqs: 500eee283b62245d11ad07b5e465ce0bb2cd5cd0
+
+COCOAPODS: 0.38.2
