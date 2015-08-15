@@ -22,7 +22,7 @@
 @implementation APFQuestionsViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"FAQ's";
+    self.title = @"FAQs";
     self.view.backgroundColor = [UIColor whiteColor];
     
     UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStylePlain target:self action:@selector(closeButtonPressed)];

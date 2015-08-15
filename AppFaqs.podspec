@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AppFaqs"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "iOS SDK for https://appfaqs.co"
   s.description      = <<-DESC
                        Pod for easy integration of AppFaqs into your iOS app.
